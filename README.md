@@ -22,17 +22,17 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/BeyondTeam/BDReborn.git
+git clone https://github.com/pesari/go.git
 cd BDReborn
-chmod +x beyond.sh
-./beyond.sh install
-./beyond.sh 
+chmod +x go.sh
+./go.sh install
+./go.sh 
 # Enter a phone number & confirmation code.
 
 # For Auto Launch:
-cd BDReborn
-chmod 777 autobd.sh
-screen ./autobd.sh
+cd go
+chmod 777 auto.sh
+screen ./auto.sh
 ```
 ### One command
 To install everything in one command, use:
