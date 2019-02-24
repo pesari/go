@@ -82,17 +82,30 @@ function create_config( )
     enabled_plugins = {
 		"banhammer",
 		"groupmanager",
+		"Chat-Actions",
 		"msg-checks",
 		"plugins",
 		"tools",
 		"fun",
-
+		"salam",
+		"bay",
+		"ki",
+		"rank",
+		"man",
+		"s-en",
+		"khobi",
+		"chtori",
+		"pesar",
+		"felan",
+		"CleanBlackList",
+		"CleanDelAcc",
+		"logo"
 	},
     sudo_users = {671672017, 157059511, sudo_id},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》bot
+    info_text = [[ă€‹bot
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
